@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["sammylintw@gmail.com"]
   gem.description   = "The redactor-rails gem integrates the Redactor editor"
   gem.summary       = ""
-  gem.homepage      = "https://github.com/SammyLin/redactor-rails"
+  gem.homepage      = "https://github.com/kennon/redactor-rails"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -16,6 +16,4 @@ Gem::Specification.new do |gem|
   gem.version       = RedactorRails::VERSION
 
   gem.add_dependency("mime-types")
-  gem.add_dependency("orm_adapter")
-  gem.add_dependency("devise")
 end

@@ -1,8 +1,10 @@
-# Rails 3.2 Integration for Redactor (Devise Edition)
+# Rails 3.2 Integration for Redactor
 
 The redactor-rails gem integrates the [Redactor](http://redactorjs.com/) editor with the Rails 3.2 asset pipeline.
 
 This gem bundles Redactor version 8.2.2 which is the most recent version as of January 20, 2013. Check [Redactor's changelog](http://imperavi.com/redactor/log/) for further updates.
+
+This fork removes the dependencies on devise, etc. and just allows you to include the JS/CSS into the asset pipeline.
 
 ## Installation
 

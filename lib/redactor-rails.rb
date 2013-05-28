@@ -1,4 +1,3 @@
-require "orm_adapter"
 require "redactor-rails/version"
 
 module RedactorRails
